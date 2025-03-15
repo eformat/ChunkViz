@@ -72,7 +72,7 @@ function App() {
     'recursiveCharacterTextSplitter': {
       label: 'Recursive Character Text Splitter 🦜️🔗',
       language: null,
-      chunk_overlap_ind: false,
+      chunk_overlap_ind: true,
       defaultText: defaultProse
     },
     'recursiveCharacterTextSplitterJS': {
@@ -90,7 +90,7 @@ function App() {
     'recursiveCharacterTextSplitterMarkdown': {
       label: 'Recursive Character Text Splitter - Markdown 🦜️🔗',
       language: 'markdown',
-      chunk_overlap_ind: false,
+      chunk_overlap_ind: true,
       defaultText: defaultMarkdown
     },
   }), []);
